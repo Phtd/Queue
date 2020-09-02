@@ -41,6 +41,5 @@ namespace Queue
             Guest soonToLeave = guests.Peek();
             Console.WriteLine(string.Format("\n checking to see who will be the next person to leave: {0}", soonToLeave.Name));
         }
-
     }
 }
